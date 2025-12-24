@@ -8,41 +8,76 @@ tags: [self-reference]     # TAG names should always be lowercase
 
 # Introduction
 
-I recently revisted a delightful article by Douglas Hofstadter in one of his articles in his collection "Metamagical Themas" on self-reference. He goes over a variety of tricky sentences that bend the mind like the liar paradox: "I am lying". If one thinks about this, one quickly realizes that the sentence seems to flip back and forth between being true and false. I appreciated how he compiles a large variety of sentences and provides many different variations.
+I recently revisted a delightful article by Douglas Hofstadter in his collection "Metamagical Themas" on self-reference. He goes over a variety of tricky self-referencing sentences like the liar paradox: "I am lying". One quickly realizes this sentence flips back and forth between being true and false. This got me thinking about other categories of interesting sentences.
 
-I realized that I have a similar category of funny sentences that for lack of a better term I have titled `Self-Selecting Messages`. To jump into an example, you might have ran into bumper stickers on cars like the following...
+I quickly identified a new group funny sentences that for lack of a better term I have titled `Self-Selecting Messages`. To jump into an example, you might have ran into bumper stickers on cars like the following...
 
 ```If you can read this... you are driving too close!```
 
-This message is self-selecting in the sense that the only people who need to read it are those that can read it. These sentences become particularly intereseting when there is a connection between what the message and those that the message self-selects. Another self-selecting bumpersticker I found online states...
+Another self-selecting bumpersticker I found online states...
 
 ```¡ɹǝʌo ǝɯ dᴉlɟ uǝɥʇ 'sᴉɥʇ pɐǝɹ uɐɔ noʎ ɟI```
 
-I began to think about what other types of self-selecting messages might exist and what uses they may have. I came up with a few main classes.
+These messages are self-selecting because only people who need to read them are those that can read them. Furthermore, the messages are related to the conditions needed to read them in the first place. Whereas in self-referring sentences, the sentence points back at itself, self-selecting sentences point back at the interpreter. It is almost as if these sentences know that they are being watched.
 
-# Selecting for Linguistic Understanding
+What these types of sentences made me realize, is that the reader is not as anonymous as one might think. Normally, if I am reading a book or an article, I can learn quite a bit about the author depending on what they write. What goes unnoticed is that the author can also know quite a bit about their readers as well. Obviously, the author cannot know exactly who will read their work. However, if someone is reading a book, then the author can make some reasonable inferences about that reader. If the author ever finds out someone has read their book, then the author can immediately know several things about that person. The first level of `Self-Selecting Messages` is merely higlighting these facts.
 
-First, one can encode a message in a way that exposes the fact that the reader could understand the sentence at all. It could be as simple as using another language...
+# Did you know you can read?
 
-```¡Puedes leer Español!```
+At the most basic level, a `Self-Selecting Message` can point out the conditions that must be true in order for someone to understand the sentence.
 
-Or similarly...
+They can be as trivial as...
 
-```You can read English!```
-
-Or even just...
+```You can see!```
 
 ```You can read!```
 
-One might also use other special encodings such as...
+```You can read English!```
 
-```Fvb ohcl avv tbjo aptl vu fvby ohukz!```
+But if we use another language...
+
+```¡Puedes leer Español!```
+
+And by combining the last two...
+
+```¡Eres bilingüe!```
+
+Already, by writing in Spanish on an English primary blog, I write messages that self-select for only those who are billingual.
 
 One might also be able to play into one's ability to read even when the letters are messed up such as in the [Transposed Letter Effect](https://en.wikipedia.org/wiki/Transposed_letter_effect)
 
 ```You pborlaby dno't hvae dxlseyia if you can raed tihs!```
 
-...this might be inaccurate and I need to test it.
+...this might be inaccurate.
+
+There are also some I can add by virtue of this article being on a blog...
+
+```You are looking at a screen!```
+
+```You are have access to the internet!```
+
+```You are using a computer!```
+
+<details>
+  <summary>Click Here</summary>
+  <code>You clicked the button!</code>
+</details>
+<p></p>
+
+<div class="mobile-only">
+This content only shows on mobile.
+</div>
+
+And by virtue of the fact that this blog is a small scale effort.
+
+```You probably know James Boyer personally!```
+
+One might also use other special encodings such as...
+
+```Fvb ohcl avv tbjo aptl vu fvby ohukz!```
+
+
+
 
 Each of these examples is rather silly in themselves but they show the potential for self-selecting listeners based on how you communicate the message. For example, if one wanted to collect all speakers in a room that speak a specific language, all you need to do is make the request in that language and the listeners will self-select.
 
@@ -79,16 +114,21 @@ Or understanding certain concepts such as...
 
 # Selecting for Character
 
-One might also construct a message so that it is difficult to decode so that those who manage to understand it anyway have demonstrated the trait of perseverance. One could also hide a message somewhere and let those who find it know that they are far too curious!
+One might construct a message that is self-selecting for a certain type of person. Imagine an online test advertising...
 
-Making certain messages difficult or obscure can select the message for those who truly care about it. The person of Jesus seems to have been doing this type of self-selection by choosing to speak in parables instead of directly.
+```Click here to find out if you are insecure!```
 
-> The disciples came to him and asked, “Why do you speak to the people in parables?”
->
-> He replied, “Because the knowledge of the secrets of the kingdom of heaven has been given to you, but not to them. Whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them.
->
-> *Matthew 13:11-12*
+This is one that I would certainly be tempted to click. I think though that the automatic answer to clicking on a test should be no. Similarly, would you consider...
 
+```Pay $20 to find out if you are good with money!```
+
+Or be pulled into...
+
+ ```Take this 100 question quiz to find out if you are good with time managment!```
+
+Or perhaps most tempting of all...
+
+```Spend 5 minutes to definitively find out if you can resist online quizes!```
 
 In the field of cybersecurity, one might setup a [Honey Pot](https://en.wikipedia.org/wiki/Honeypot_(computing)). These are resources that no normal user would access on a website except for a malicious one. If you are trying to access `/admin` when the real admin link is `/true_admin`, then you are probably a hacker! Such users can then be quickly flagged as potential threats to a website.
 
@@ -107,3 +147,10 @@ There is also cases where one can imagine tangiable objects that have intended o
 
 ![Scissors](/assets/img/scissors.png){: width="300" height="100" }
 _How would you open this package? Who exactly is the intended purchaser?_
+
+
+Social Media: GET OFF AND STOP SCROLLING
+
+You are here
+
+Noises
